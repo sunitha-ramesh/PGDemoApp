@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="common" />
+	<package name="myaction" extends="struts-default" namespace="/">
+		<action name="generateManualMCSAction" class="com.innoart.pg.action.ManualMCSAction"
+			method="execute">
+			<result name="input" type="stream">
+				<param name="contentType">text/html</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+		<action name="autoComplete" class="com.innoart.pg.action.AutoCompleteAction"
+			method="execute">
+			<result name="input" type="stream">
+				<param name="contentType">text/html</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+	</package>
+</struts>
