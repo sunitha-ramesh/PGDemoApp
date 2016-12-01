@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>AWS SAMPLE APP</title>
+<title>AWS SAMPLE APPLICATION</title>
 
 <link rel="stylesheet" href="styles/jquery.dataTables_themeroller.css">
 <link rel="stylesheet" href="styles/jquery-ui-1.8.4.custom.css">
